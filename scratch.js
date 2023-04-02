@@ -9,6 +9,6 @@
 let numbers = [2, 3, 4, 5, 6]
 let fruits = ['apple', 'banana', 'orange']
 
-fruits.forEach(function(number){
-    console.log(number)
+fruits.forEach(function(numbers, index){
+    console.log(index, numbers)
 })
